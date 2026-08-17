@@ -21,7 +21,7 @@
     @apply bg-surface-800;
   }
   ::-webkit-scrollbar-thumb {
-    @apply bg-surface-600 rounded-full hover:bg-surface-500;
+    @apply bg-surface-500 rounded-full hover:bg-surface-400;
   }
 }
 

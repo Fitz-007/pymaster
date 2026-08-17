@@ -68,7 +68,7 @@ export default function LearnPage() {
                           ? `${cat.exercises.length} exercises`
                           : 'Reading'}
                       </span>
-                      <ArrowRight className="w-4 h-4 text-surface-600 group-hover:text-brand-400 transition-colors" />
+                      <ArrowRight className="w-4 h-4 text-surface-400 group-hover:text-brand-400 transition-colors" />
                     </div>
                   </a>
                 ))}

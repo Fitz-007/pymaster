@@ -82,7 +82,7 @@ export default function CategoryPage() {
                   <h3 className="text-white font-medium text-sm">{exercise.title}</h3>
                   <p className="text-surface-500 text-xs truncate">{exercise.description}</p>
                 </div>
-                <PlayCircle className="w-5 h-5 text-surface-600 group-hover:text-brand-400 transition-colors shrink-0" />
+                <PlayCircle className="w-5 h-5 text-surface-400 group-hover:text-brand-400 transition-colors shrink-0" />
               </a>
             ))}
           </div>

@@ -116,7 +116,7 @@ export default function LoginPage() {
                     onChange={(e) => setName(e.target.value)}
                     placeholder="Your name"
                     className="w-full pl-10 pr-4 py-3 bg-surface-800 border border-card-border rounded-lg
-                               text-white placeholder:text-surface-600 focus:outline-none focus:border-brand-500
+                               text-white placeholder:text-surface-400 focus:outline-none focus:border-brand-500
                                transition-colors"
                   />
                 </div>
@@ -133,7 +133,7 @@ export default function LoginPage() {
                   placeholder="you@example.com"
                   required
                   className="w-full pl-10 pr-4 py-3 bg-surface-800 border border-card-border rounded-lg
-                             text-white placeholder:text-surface-600 focus:outline-none focus:border-brand-500
+                             text-white placeholder:text-surface-400 focus:outline-none focus:border-brand-500
                              transition-colors"
                 />
               </div>
@@ -150,7 +150,7 @@ export default function LoginPage() {
                   required
                   minLength={6}
                   className="w-full pl-10 pr-4 py-3 bg-surface-800 border border-card-border rounded-lg
-                             text-white placeholder:text-surface-600 focus:outline-none focus:border-brand-500
+                             text-white placeholder:text-surface-400 focus:outline-none focus:border-brand-500
                              transition-colors"
                 />
               </div>

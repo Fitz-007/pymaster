@@ -37,7 +37,8 @@ export interface Level {
 
 export function getLevelStats(level: Level) {
   const totalExercises = level.categories.reduce((sum, cat) => sum + cat.exercises.length, 0);
-  return { totalExercises };
+  const totalCategories = level.categories.length;
+  return { totalExercises, totalCategories };
 }
 
 export function findExercise(levelId: string, categoryId: string, exerciseId: string) {
